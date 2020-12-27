@@ -9,3 +9,6 @@ package-lock.json
 .vscode
 node_modules
 src
+
+# dist files:
+dist/**/*.js.map
