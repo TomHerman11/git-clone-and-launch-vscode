@@ -1,6 +1,6 @@
 {
   "name": "git-clone-and-launch-vscode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A cli tool to clone a Git repository and launch VSCcode with the cloned folder as the context.",
   "keywords": [
     "git clone",
