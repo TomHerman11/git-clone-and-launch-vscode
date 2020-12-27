@@ -1,6 +1,6 @@
 // taken from: https://stackoverflow.com/a/63283134/12206272
 export function verifyValidGitRepoUrl(gitRepo: string): boolean {
-    const vaildGitRepoRegex = /^((https:\/\/([a-z0-9]*@)?github.com\/)|(git@github.com:))[a-zA-Z0-9](-?[a-zA-Z0-9])*\/[a-zA-Z0-9](-?[a-zA-Z0-9])*(.git)?$/;
+    const vaildGitRepoRegex = /^((http(s)?:\/\/([a-zA-Z0-9]+@)?[a-zA-Z0-9][\.a-zA-Z0-9]+\/)|(git@[a-zA-Z0-9][\.a-zA-Z0-9]+:))[a-zA-Z0-9](-?[a-zA-Z0-9])*\/[a-zA-Z0-9](-?[a-zA-Z0-9])*(.git)?$/;
     return vaildGitRepoRegex.test(gitRepo);
 }
 
