@@ -1,1 +1,1 @@
-# git-clone-and-open-vscode
+# git-clone-and-launch-vscode

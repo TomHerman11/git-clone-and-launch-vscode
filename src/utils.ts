@@ -4,10 +4,10 @@ export function verifyValidGitRepoUrl(gitRepo: string): boolean {
     return vaildGitRepoRegex.test(gitRepo);
 }
 
-export function consoleErrorRed(m: string) {
+export function consoleErrorRed(m: string): void {
     console.error('\x1b[31m%s\x1b[0m', m); // inject m in %s
 }
 
-export function consoleLogGreen(m: string) {
+export function consoleLogGreen(m: string): void {
     console.log('\x1b[32m%s\x1b[0m', m); // inject m in %s
 }

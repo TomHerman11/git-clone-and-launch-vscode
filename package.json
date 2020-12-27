@@ -1,33 +1,39 @@
 {
-  "name": "git-clone-and-open-vscode",
+  "name": "git-clone-and-launch-vscode",
   "version": "1.0.0",
   "description": "A command line tool to clone a Git repository and launch VSCcode with the cloned folder as the context",
   "keywords": [
     "git clone",
+    "github clone",
     "launch VSCode",
-    "Initialize Project",
-    "gcvs"
+    "open VSCode",
+    "git clone and launch vscode",
+    "initialize project",
+    "gclv",
+    "cli tool",
+    "command line tool"
   ],
   "author": "Tom Herman",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TomHerman11/git-clone-and-open-vscode.git"
+    "url": "git+https://github.com/TomHerman11/git-clone-and-launch-vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/TomHerman11/git-clone-and-open-vscode/issues"
+    "url": "https://github.com/TomHerman11/git-clone-and-launch-vscode/issues"
   },
-  "homepage": "https://github.com/TomHerman11/git-clone-and-open-vscode#readme",
+  "homepage": "https://github.com/TomHerman11/git-clone-and-launch-vscode#readme",
   "bin": {
-    "gcvs": "./dist/index.js"
+    "gcovs": "./dist/index.js",
+    "git-clone-and-launch-vscode": "./dist/index.js"
   },
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
     "compile": "tsc",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --fix --ext .ts",
+    "prepublish": "tsc",
     "watch": "tsc --watch"
   },
   "devDependencies": {

@@ -1,0 +1,11 @@
+# Configuration files:
+.eslintignore
+.eslintrc
+.gitignore
+tsconfig.json
+package-lock.json
+
+# Directories:
+.vscode
+node_modules
+src
