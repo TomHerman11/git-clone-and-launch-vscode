@@ -10,6 +10,10 @@ main();
 
 function main() {
     const gitRepoUrl = process.argv[2];
+    if (gitRepoUrl === "--help") {
+        console.log(texts.USAGE);
+        return;
+    }
 
     if (
         !validateGitRepoUrl(gitRepoUrl)
