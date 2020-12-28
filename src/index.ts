@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-import * as child_process from 'child_process';
-import * as path from 'path';
-import { texts } from './texts.js';
-import * as utils from './utils.js';
+const child_process = require('child_process');
+const path = require('path');
+const texts = require('./texts.js');
+const utils = require('./utils.js');
 
 // START HERE:
 main();
