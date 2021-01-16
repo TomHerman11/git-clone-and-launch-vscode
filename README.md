@@ -1,6 +1,7 @@
 # git-clone-and-launch-vscode
 
-A cli tool to clone a Git repository and launch VSCcode with the cloned folder as the context.
+npm Package - A cli tool to clone a Git repository and launch VSCcode with the cloned folder as the context 🎨🦥
+I use this tool at least once a week for work / personal projects.
 
 Install:  
 `npm install -g git-clone-and-launch-vscode`
